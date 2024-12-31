@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+/* Login Container */
+.login-container {
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Instagram Logo */
+.login-container h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+/* Login Button */
+.login-container button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #007acc;
+}
+
+/* OR Divider */
+.login-container .or {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #8e8e8e;
+    font-size: 13px;
+}
+
+.login-container .or::before,
+.login-container .or::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+    margin: 0 10px;
+}
+
+/* Facebook Login */
+.login-container .facebook-login {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login-container .facebook-login img {
+    margin-right: 5px;
+}
+
+/* Forgot Password Link */
+.login-container .forgot-password {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+}
+
+/* Sign Up Section */
+.login-container .signup {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-container .signup a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
